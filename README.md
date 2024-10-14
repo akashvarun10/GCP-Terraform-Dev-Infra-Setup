@@ -1,4 +1,4 @@
-# GCP-Terraform-Infra-Setup
+# GCP-Terraform-Dev-Infra-Setup
 
 This repository contains Terraform scripts for provisioning and managing infrastructure on Google Cloud Platform (GCP).
 
