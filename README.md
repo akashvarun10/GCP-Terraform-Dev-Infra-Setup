@@ -1,4 +1,4 @@
-# GCP-TF-Scripts
+# GCP-Terraform-Infra-Setup
 
 This repository contains Terraform scripts for provisioning and managing infrastructure on Google Cloud Platform (GCP).
 
@@ -89,14 +89,14 @@ After applying the Terraform configuration, you'll receive the following outputs
 
 A `db_credentials.txt` file will also be created locally with database connection details.
 
-## Security Considerations
 
-The current configuration is designed for development and testing purposes. It includes open firewall rules and public database access. For production use, consider the following security enhancements:
+### Development and Testing Setup
 
-- Restrict firewall rules to specific IP ranges
-- Use private IP addresses for database access
-- Enable Cloud SQL proxy for secure connections
-- Implement least privilege access for service accounts
+The current configuration is optimized for development and testing purposes:
+- Open firewall rules allow unrestricted access
+- Simple service account permissions for quick setup
+
+Remember to thoroughly test all security configurations before deploying to production.
 
 ## Cleanup
 
